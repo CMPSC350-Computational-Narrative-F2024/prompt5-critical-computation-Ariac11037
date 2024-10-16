@@ -30,8 +30,8 @@ def main():
     messages = [
         {"role": "system", "content": "You are a critical text analyst."},
         {"role": "user", "content": (
-            "Read the following text and provide a chain of thought analysis that deconstructs the relationships between words and phrases, "
-            "revealing hidden nuances and meaning. Take it step by step and explain each part of your reasoning.\n\n"
+            "Read the following text and provide an overall chain of thought analysis that deconstructs the relationships between words and phrases, "
+            "revealing hidden nuances and meaning. Take it step by step and explain each part of your reasoning. Don't let your analysis be too long.\n\n"
             f"Text: {source_text}\n\n"
             "Chain of Thought Analysis:"
         )}
